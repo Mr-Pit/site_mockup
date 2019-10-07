@@ -1,0 +1,92 @@
+/* Sets up the navigation bar as a flex box and styles it. */
+
+.topnav {
+    overflow: hidden;
+    background-color: #9C27B0;
+    /* #742E8C; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Style the search box inside the navigation bar */
+
+.topnav input[type=text] {
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #E1E1E1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Implemented W3 Schools CSS Stylesheet for second navigation bar  */
+
+/* Sets up the main body of the website. */
+
+.main-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    width: 1130px;
+    align-content: center;
+}
+
+.Bottom-Left {
+    height: 500px;
+    width: 60%;
+    background-color: #FAFAFA;
+}
+
+.Spacer {
+    height: 500px;
+    width: 1%;
+    background-color: white;
+}
+
+.Bottom-Right {
+    height: 500px;
+    width: 445px;
+    background-color: white;
+}
+
+#bottom-search-bar {
+    width: 445px;
+}
+
+.scoreboard-navigation {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+
+    font-size: 16px; 
+    color: #772B90; 
+    text-align: left;
+}
